@@ -1,0 +1,209 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(85, 85, 85);
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+.homehdr
+ {
+    
+    margin-left: 5rem;
+    font-size: 1.7rem;
+                   
+ }
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.navBar a{
+margin: 10px;
+font-size: 13px;
+}
+
+.navBar {
+margin-right: 60px;
+}
+
+section {
+    flex: 1;
+    /* Add more styles for your section if needed */
+    padding: 20px;
+}
+
+
+.firstH {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+ }
+ .firstP {
+         font-size: 30px;
+         font-family: Arial, Helvetica, sans-serif;
+     /* margin-left: 20rem; */
+ }
+ .homeTopHeading {
+    width: 100% !important;
+   display: flex;
+   /* flex-wrap: wrap; */
+   margin-top: 200px;
+}
+.homeSecnHeadin{    
+        width: 100% !important;
+       display: flex;
+       /* flex-wrap: wrap; */
+       margin-top: 200px;
+     
+    }
+.homeSecnHeadin div{
+    margin: 0 5rem;
+}
+
+.secndH{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;   
+}
+.secndP{
+font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.homeThirdHed
+{
+margin-left: 17rem;
+margin-top: 8rem;
+}
+.thirdH{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;   
+}
+.thirdP{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.imgTxt{
+    width: 100% !important;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 200px;
+    align-items: center;
+}
+.imgTxt img{
+   width: 45%;
+    margin: 0 5rem;
+}
+
+.homeFourtHrd{
+margin-left: 12rem;
+margin-top: 7rem;
+}
+.fourthH
+{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 17rem;
+margin-top: 10rem;
+}
+.fourthP img
+{
+    width: 80% !important;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 80px;
+    margin-left: 10rem;
+    margin-bottom: 40px;
+}
+
+.frthPera{
+    font-size: 30px;
+         font-family: Arial, Helvetica, sans-serif;
+     /* margin-left: 20rem; */
+     margin-left: 50px;
+}
+
+.iSightLastFotr video
+{
+    width: 100% !important;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 80px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+footer {              
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 85, 85);
+    /* padding: 5px; */
+    /* height: 280px ; */
+}
+
+.foterLog  {
+    padding:0 4rem;
+}
+
+.foterLog p{
+    font-size: 26px;
+   
+}
+
+form {
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }

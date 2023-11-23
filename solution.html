@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scal   e=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>iSight Website</title>
+  </head>
+  <body>
+    <div id="main">
+      <header>
+        <h1 class="homehdr">iSight</h1>
+        <nav class="navBar">
+          <a href="/index.html">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/product.html">Product</a>
+          <a href="/solution.html">Solution</a>
+          <a href="/test.html">Test</a>
+        </nav>
+      </header>
+
+      <section>
+        <div class="solfst">
+          <h>iSight - Key Components</h>
+          <img src="./image/solfst.webp" alt="alternative-text" />
+        </div>
+
+        <div class="solsec">
+          <h3>iSight - Application Capabilities</h3>
+          <img src="./image/solsec.webp" alt="alternative-text" />
+        </div>
+
+        <div class="solthird">
+          <h4>iSight – Development Tools</h4>
+          <img src="./image/solthird.webp" alt="alternative-text" />
+        </div>
+
+        <div class="instone">
+          <h>Instruction's</h>
+          <p>
+            1. Set up the Development Environment a.Download Android Studio.
+            b.Select Android 23 (Marshmallow) while configuring the environment
+            (The M300 works with Android SDK v23). c.Download M300 SDK as per
+            the instruction given on the Vuzix portal.
+          </p>
+
+          <p>
+            2. Set up Vuzix M-300 a.Set up Vuzix M300 Augmented Reality Glasses
+            as per the M300 user manual. b.Set up a stable Wi-Fi connection as
+            specified in the M300 user manual. c.Run available demos
+            (video_hw_encoding, camera_flash, camera_focus, barcode_v3).
+            d.Validate that the demos work.
+          </p>
+
+          <p>
+            3. Setup Microsoft Vision API's a.Create an Azure account. b.Create
+            Services for Computer Vision API. c.Generate Computer Vision keys to
+            be used in the main program. These keys contain the access to
+            Azure's respective APIs
+          </p>
+
+          <p>
+            4. Test Microsoft Vision API's a.Use Azure Cognitive and AI API's to
+            perform video analytics. b.The Azure API's will determine various
+            things like people detection, emotion analysis, object detection,
+            optical character reading. The testing tool is <br />
+            provided by Microsoft on the Microsoft AI portal.
+          </p>
+
+          <p>
+            5. Coding a.Create a new Android project with a form and two buttons
+            – one for a single image click, and another for continuous image
+            clicks. Take appropriate <br />
+            functions from Vuzix Sample Projects that helps in image capture.
+            b.Converting the captured imagebytes to a byte array and call the
+            appropriate vision API. c.When the picture is clicked, take the byte
+            stream and send an HTTP request to the Vision API. d.Take the
+            response, and parse it to get the output of the API that describes
+            what the camera is "Seeing“. e.Pass the response to the Text to
+            Speech Engine, which routes this to have the speaker articulate what
+            it is seeing in audio format. f.Create another button, doing the
+            above repeatedly until prompted to stop.
+          </p>
+
+          <p>
+            6. Testing a.Transfer the application to the Vuzix M300 device.
+            b.Turn the M300’s wi-fi on, connect to a stable wi-fi source. A
+            smartphone is used her as the testing is done indoors and outdoors.
+            c.Run it to see about different objects and note the accuracy of the
+            device and API. Take some conditions in low light as well. a.20
+            objects at about 10 feet, good light (daylight or a well lit room).
+            b.20 objects at about 20 feet, good light (daylight or a well lit
+            room). c.20 objects at about 30 feet, good light (daylight or a well
+            lit room). d.20 objects at about 10 feet, insufficient light
+            (dawn/dusk or a low lit room). e.20 objects at about 20 feet,
+            insufficient light (dawn/dusk or a low lit room). f.20 objects at
+            about 30 feet, insufficient light (dawn/dusk or a low lit room).
+            g.Run the continuous viewing for the good and low light conditions
+          </p>
+
+          <p>
+            7. Result a. Document the results, take photographs of the
+            object/scene which the Vuzix M300 is pointed to. Categorize the
+            results as accurate, semi accurate, or <br />
+            inaccurate
+          </p>
+        </div>
+
+        <div class="solfourth">
+          <h5>iSight – Logical Design</h5>
+          <img src="./image/solfourth.webp" alt="alternative-text" />
+        </div>
+
+        <div class="solfifth">
+          <h6>iSight – Capability Workflow</h6>
+          <img src="./image/solfifth.webp" alt="alternative-text" />
+        </div>
+
+        <div class="solsix">
+          <h7>iSight – Program Design</h7>
+          <img src="./image/solsix.webp" alt="alternative-text" />
+        </div>
+
+        <div class="insttwo">
+          <h8>iSight – Primary Requirements</h8>
+
+          <div pone>
+            <p>
+              Programmable Smart Glasses <br /><br />
+              Very few smart glasses are available. <br /><br />
+              Glasses evaluated – •Vaunt •Google Glass •Intel Glass •MS HoloLens
+              •Vuzix Blade and Vuzix M 300 XL Vuzix M 300 XL selected
+            </p>
+            Artificial/Cognitive Intelligence <br /><br />
+            The cognitive capabilities in AI have been around for only about two
+            years. <br /><br />
+            The Cognitive API evaluated - •Microsoft •Google •Amazon
+            <br /><br /><br />
+            Microsoft was finally chosen (best documentation & training
+            material)
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="foterLog">
+      <div>
+        <h1 class="textFtr">iSight</h1>
+        <p>New beginning to start a digital revolution for MSVI</p>
+      </div>
+      <div>
+        <form>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required />
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <!-- <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea> -->
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

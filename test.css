@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: rgb(85, 85, 85);
+    padding: 5px;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+  }
+  .homehdr {
+    margin-left: 5rem;
+    font-size: 1.7rem;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+  
+  .navBar a {
+    margin: 10px;
+    font-size: 13px;
+  }
+  .navBar {
+    margin-right: 60px;
+  }
+  
+  section {
+    flex: 1;
+    /* Add more styles for your section if needed */
+    padding: 20px;
+  }
+  .tesone div
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 85, 85);
+    /* padding: 5px; */
+    /* height: 280px ; */
+  }
+  
+  .foterLog {
+    padding: 0 4rem;
+  }
+  
+  .foterLog p {
+    font-size: 24px;
+  }
+  
+  form {
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .homehdr {
+      margin-left: 2rem;
+      font-size: 1.2rem;
+    }
+    .navBar {
+      margin-right: 10px;
+    }
+    .cont1 h2 {
+      font-size: 30px;
+      margin-top: 4rem;
+      margin-left: 2rem;
+    }
+    .cont1 p {
+      margin-left: 1; 
+    

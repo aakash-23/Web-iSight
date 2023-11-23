@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(85, 85, 85);
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+.homehdr 
+{
+    
+    margin-left: 5rem;
+    font-size: 1.7rem;
+                   
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.navBar a{
+
+margin: 10px;
+font-size: 13px;
+
+
+}
+.navBar {
+margin-right: 60px;
+}
+
+section {
+    flex: 1;
+    /* Add more styles for your section if needed */
+    padding: 20px;
+}
+
+.fstimg 
+{
+    display: flex;
+    justify-content:  space-around;
+    /* background-color: rgb(85, 85, 85); */
+    margin-top: 8rem;
+    padding: 8rem;
+}
+
+.fstimg div{
+    height: 200px;
+    width: 50%;
+ background-color: rgb(85, 85, 85);
+
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.scndimg h3
+{
+    font-size: 30px;
+    margin-left: 45rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    font-family: fahkwang, asans-serif;
+}
+
+.scndimg div
+{
+    display: flex;
+    flex-direction: row;
+    padding:  0 4rem;
+    justify-content: space-around;
+    margin-left: 7.5rem;
+}
+ 
+.scndimg p
+{
+    margin: 6rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 1rem;
+    
+}
+
+.pdetail 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+    /* margin-left: 4rem; */
+    padding:   4rem;   
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+.inst h4 
+{
+ font-size: 40px;
+ font-family: fahkwang, asans-serif;
+ margin-left: 24rem;
+}
+.inst img
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around ;
+    /* margin-left: 4rem; */
+    padding:   4rem;  
+    margin-bottom: 30px;
+    margin-left: rem;
+}
+footer {              
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 85, 85);
+    /* padding: 5px; */
+    /* height: 280px ; */
+}
+
+.foterLog  {
+    padding:0 4rem;
+}
+
+.foterLog p{
+    font-size: 24px;
+}
+
+form {
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
